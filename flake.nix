@@ -57,6 +57,7 @@
 
   in {
     packages.x86_64-linux.euclid3 = python.pkgs.euclid3;
+    packages.x86_64-linux.pygcode = python.pkgs.pygcode;
     defaultPackage.x86_64-linux = python.withPackages (ps: [ ps.pygcode ] );
     overlays = { inherit pythonOverrides; };
   };
