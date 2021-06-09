@@ -27,7 +27,6 @@ CLASSIFIERS = [
     "Topic :: Scientific/Engineering",
 ]
 INSTALL_REQUIRES = [
-    'argparse',  # Python command-line parsing library
     'euclid3',  # 2D and 3D vector, matrix, quaternion and geometry module.
     'six',  # Python 2 and 3 compatibility utilities
 ]
